@@ -12,3 +12,29 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 5px;
+  justify-content: center;
+}
